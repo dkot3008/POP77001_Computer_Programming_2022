@@ -8,7 +8,7 @@
 </div>
 ---
 
-In this week we will discuss the fundamental concepts of programming, such as variables, assignment and object types with application to R. In addition, we will start using some built-in methods and functions.
+This week we will discuss the fundamental concepts of programming, such as variables, assignment and object types with application to R. In addition, we will start using some built-in functions.
 
 ## Required Readings
 

@@ -56,7 +56,7 @@ See syllabus for further details.
 
 ## Module Materials
 
-- Course website: [bit.ly/POP77001](https://bit.ly/POP77001)
+- Course website: [tinyurl.com/POP77001](https://tinyurl.com/POP77001)
 - GitHub repository: [github.com/ASDS-TCD/POP77001_Computer_Programming_2022](https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022)
 
 ## Additional Materials
