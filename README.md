@@ -97,7 +97,7 @@ Online:
 - Participation (10 %)
     - Tutorial attendance
 
-- 4 assignemnts (40%)
+- 4 assignments (40%)
     - Bi-weekly programming exercises
     - Due by 23:59 on Friday of weeks 3, 5, 9 and 11 on Blackboard
 

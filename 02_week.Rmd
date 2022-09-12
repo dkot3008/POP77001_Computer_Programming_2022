@@ -4,7 +4,7 @@
 <a class="btn btn-primary btn-lg" role="button" href="lectures/02_week.html">Lecture Slides (html)</a>
 <a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/lectures/02_week.ipynb">Lecture Slides (ipynb)</a>
 <a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/tutorials/02_week.ipynb">Tutorial Exercise (ipynb)</a>
-<a class="btn btn-secondary btn-lg" role="button" href="tutorials/02_week.html">Lab Exercise (html)</a>
+<a class="btn btn-secondary btn-lg" role="button" href="tutorials/02_week.html">Tutorial Exercise (html)</a>
 </div>
 ---
 
@@ -17,7 +17,7 @@ In this week we will discuss the fundamental concepts of programming, such as va
 
 ## Additional Readings
 
-- Matloff. Chapters 2: Vectors, 3: Matrices & Arrays, 4: Lists, 5: Data Frames, 6: Factors & Tables;
+- Matloff. Chs 2: Vectors, 3: Matrices & Arrays, 4: Lists, 5: Data Frames, 6: Factors & Tables;
 
 ## Tutorial
 

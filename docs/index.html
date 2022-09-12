@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>POP77001 Computer Programming for Social Scientists</title>
   <meta name="description" content="POP77001 Computer Programming for Social Scientists" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.28 and GitBook 2.6.7" />
 
   <meta property="og:title" content="POP77001 Computer Programming for Social Scientists" />
   <meta property="og:type" content="book" />
-  
   
   
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Tom Paskhalis, Department of Political Science, Trinity College Dublin" />
 
 
-<meta name="date" content="2021-01-01" />
+<meta name="date" content="2022-01-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,9 +31,9 @@
   
   
 
-<link rel="next" href="what-is-computation.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<link rel="next" href="introduction-to-computation.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +49,9 @@
 
 
 
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
@@ -84,66 +83,17 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#assessment-criteria"><i class="fa fa-check"></i>Assessment criteria</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#plagiarism"><i class="fa fa-check"></i>Plagiarism</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="what-is-computation.html"><a href="what-is-computation.html"><i class="fa fa-check"></i>1 What is Computation?</a>
+<li class="chapter" data-level="" data-path="introduction-to-computation.html"><a href="introduction-to-computation.html"><i class="fa fa-check"></i>1 Introduction to Computation</a>
 <ul>
-<li class="chapter" data-level="" data-path="what-is-computation.html"><a href="what-is-computation.html#readings"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="what-is-computation.html"><a href="what-is-computation.html#lab"><i class="fa fa-check"></i>Lab</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-computation.html"><a href="introduction-to-computation.html#required-readings"><i class="fa fa-check"></i>Required Readings</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-computation.html"><a href="introduction-to-computation.html#additional-readings"><i class="fa fa-check"></i>Additional Readings</a></li>
+<li class="chapter" data-level="" data-path="introduction-to-computation.html"><a href="introduction-to-computation.html#tutorial"><i class="fa fa-check"></i>Tutorial</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html"><i class="fa fa-check"></i>2 Python Basics</a>
+<li class="chapter" data-level="" data-path="r-basics.html"><a href="r-basics.html"><i class="fa fa-check"></i>2 R Basics</a>
 <ul>
-<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html#readings-1"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html#lab-1"><i class="fa fa-check"></i>Lab</a></li>
-<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html#assignment-1"><i class="fa fa-check"></i>Assignment 1</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="control-flow-in-python.html"><a href="control-flow-in-python.html"><i class="fa fa-check"></i>3 Control Flow in Python</a>
-<ul>
-<li class="chapter" data-level="" data-path="control-flow-in-python.html"><a href="control-flow-in-python.html#readings-2"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="control-flow-in-python.html"><a href="control-flow-in-python.html#lab-2"><i class="fa fa-check"></i>Lab</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html"><i class="fa fa-check"></i>4 Functions in Python</a>
-<ul>
-<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html#readings-3"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html#lab-3"><i class="fa fa-check"></i>Lab</a></li>
-<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html#assignment-2"><i class="fa fa-check"></i>Assignment 2</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="debugging-and-testing-in-python.html"><a href="debugging-and-testing-in-python.html"><i class="fa fa-check"></i>5 Debugging and Testing in Python</a>
-<ul>
-<li class="chapter" data-level="" data-path="debugging-and-testing-in-python.html"><a href="debugging-and-testing-in-python.html#readings-4"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="debugging-and-testing-in-python.html"><a href="debugging-and-testing-in-python.html#lab-4"><i class="fa fa-check"></i>Lab</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html"><i class="fa fa-check"></i>6 Data Wrangling in Python</a>
-<ul>
-<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html#readings-5"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html#lab-5"><i class="fa fa-check"></i>Lab</a></li>
-<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html#assignment-3"><i class="fa fa-check"></i>Assignment 3</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-i.html"><a href="fundamentals-of-r-programming-i.html"><i class="fa fa-check"></i>8 Fundamentals of R Programming I</a>
-<ul>
-<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-i.html"><a href="fundamentals-of-r-programming-i.html#readings-6"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-i.html"><a href="fundamentals-of-r-programming-i.html#lab-6"><i class="fa fa-check"></i>Lab</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html"><i class="fa fa-check"></i>9 Fundamentals of R Programming II</a>
-<ul>
-<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html#readings-7"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html#lab-7"><i class="fa fa-check"></i>Lab</a></li>
-<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html#assignment-4"><i class="fa fa-check"></i>Assignment 4</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="data-wrangling-in-r.html"><a href="data-wrangling-in-r.html"><i class="fa fa-check"></i>10 Data Wrangling in R</a>
-<ul>
-<li class="chapter" data-level="" data-path="data-wrangling-in-r.html"><a href="data-wrangling-in-r.html#readings-8"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="data-wrangling-in-r.html"><a href="data-wrangling-in-r.html#lab-8"><i class="fa fa-check"></i>Lab</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html"><i class="fa fa-check"></i>11 Complexity and Performance</a>
-<ul>
-<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html#readings-9"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html#lab-9"><i class="fa fa-check"></i>Lab</a></li>
-<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html#assignment-5"><i class="fa fa-check"></i>Assignment 5</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html"><i class="fa fa-check"></i>12 Web scraping</a>
-<ul>
-<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html#readings-10"><i class="fa fa-check"></i>Readings</a></li>
-<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html#lab-10"><i class="fa fa-check"></i>Lab</a></li>
-<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html#final-project"><i class="fa fa-check"></i>Final project</a></li>
+<li class="chapter" data-level="" data-path="r-basics.html"><a href="r-basics.html#required-readings-1"><i class="fa fa-check"></i>Required Readings</a></li>
+<li class="chapter" data-level="" data-path="r-basics.html"><a href="r-basics.html#additional-readings-1"><i class="fa fa-check"></i>Additional Readings</a></li>
+<li class="chapter" data-level="" data-path="r-basics.html"><a href="r-basics.html#tutorial-1"><i class="fa fa-check"></i>Tutorial</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
@@ -168,136 +118,176 @@
 <div id="header">
 <h1 class="title">POP77001 Computer Programming for Social Scientists</h1>
 <p class="author"><em>Tom Paskhalis, Department of Political Science, Trinity College Dublin</em></p>
-<p class="date"><em>2021</em></p>
+<p class="date"><em>2022</em></p>
 </div>
-<div id="about-this-module" class="section level1 unnumbered">
-<h1>About This Module</h1>
-<p>This module provides foundational knowledge of computer programming concepts and software engineering practices. It introduces students to major data science programming languages and workflows, with a focus on social science data and research questions. Students will be introduced to Python and R, two principal data science programming languages. This course covers basic and intermediate programming concepts, such as object types, functions, control flow, testing and debugging. Particular emphasis will be made on data handling and analytical tasks with a focus on problems in social sciences. Homeworks will include hands-on coding exercises. In addition, students will apply their programming knowledge on a research project at the end of the module.</p>
-<div id="instructors" class="section level2 unnumbered">
-<h2>Instructors</h2>
+<div id="about-this-module" class="section level1 unnumbered hasAnchor">
+<h1>About This Module<a href="index.html#about-this-module" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This module provides foundational knowledge of computer programming concepts and software engineering practices. It introduces students to major data science programming languages and workflows, with a focus on social science data and research questions. Students will be introduced to R and Python, two principal data science programming languages. This course covers basic and intermediate programming concepts, such as object types, functions, control flow, testing and debugging. Particular emphasis will be made on data handling and analytical tasks with a focus on problems in social sciences. Homeworks will include hands-on coding exercises. In addition, students will apply their programming knowledge on a research project at the end of the module.</p>
+<div id="instructors" class="section level2 unnumbered hasAnchor">
+<h2>Instructors<a href="index.html#instructors" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li><a href="mailto:tom.paskhalis@tcd.ie">Tom Paskhalis</a>, <em>Office Hours</em>: Thursday 11:00-13:00 <a href="https://outlook.office365.com/owa/calendar/TomPaskhalis@TCDUD.onmicrosoft.com/bookings/">online</a></li>
 <li><a href="mailto:eganm9@tcd.ie">Martyn Egan</a></li>
 </ul>
 </div>
-<div id="module-meetings" class="section level2 unnumbered">
-<h2>Module Meetings</h2>
+<div id="module-meetings" class="section level2 unnumbered hasAnchor">
+<h2>Module Meetings<a href="index.html#module-meetings" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>11 two-hour lectures
 <ul>
-<li>Monday 11:00 in <a href="https://www.tcd.ie/Maps/map.php?b=233">East End Development 4/5</a> LTEE2</li>
+<li>Monday 14:00 in PX 201 <a href="https://www.tcd.ie/Maps/map.php?b=255">7-9 Leinster Street South</a></li>
 </ul></li>
-<li>11 one-hour tutorials
+<li>11 two-hour tutorials
 <ul>
-<li>Group 1: Wednesday 14:00 in <a href="https://www.tcd.ie/Maps/map.php?b=234">1 College Green</a> 2.04</li>
-<li>Group 2: Thursday 10:00 in <a href="https://www.tcd.ie/Maps/map.php?b=233">East End Development 4/5</a> LTEE2</li>
+<li>Wednesday 14:00 in PX 201 <a href="https://www.tcd.ie/Maps/map.php?b=255">7-9 Leinster Street South</a></li>
 </ul></li>
 <li>No lecture/tutorial in Week 7</li>
 </ul>
 <table>
+<colgroup>
+<col width="6%" />
+<col width="16%" />
+<col width="12%" />
+<col width="46%" />
+<col width="18%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="right">Week</th>
+<th align="left">Date</th>
 <th align="left">Language</th>
 <th align="left">Topic</th>
+<th align="left">Assignment Due</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="right">1</td>
+<td align="left">12 September</td>
 <td align="left">-</td>
-<td align="left">What is computation?</td>
+<td align="left">Introduction to Computation</td>
+<td align="left"></td>
 </tr>
 <tr class="even">
 <td align="right">2</td>
-<td align="left">Python</td>
-<td align="left">Python Basics</td>
+<td align="left">19 September</td>
+<td align="left">R</td>
+<td align="left">R Basics</td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="right">3</td>
-<td align="left">Python</td>
-<td align="left">Control Flow in Python</td>
+<td align="left">27 September</td>
+<td align="left">R</td>
+<td align="left">Control Flow in R</td>
+<td align="left">Assignment 1</td>
 </tr>
 <tr class="even">
 <td align="right">4</td>
-<td align="left">Python</td>
-<td align="left">Functions in Python</td>
+<td align="left">3 October</td>
+<td align="left">R</td>
+<td align="left">Functions in R</td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="right">5</td>
-<td align="left">Python</td>
-<td align="left">Debugging and Testing in Python</td>
+<td align="left">10 October</td>
+<td align="left">R</td>
+<td align="left">Debugging and Testing in R</td>
+<td align="left">Assignment 2</td>
 </tr>
 <tr class="even">
 <td align="right">6</td>
-<td align="left">Python</td>
-<td align="left">Data Wrangling in Python</td>
+<td align="left">17 October</td>
+<td align="left">R</td>
+<td align="left">Data Wrangling in R</td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="right">7</td>
+<td align="left">24 October</td>
 <td align="left">-</td>
 <td align="left">-</td>
+<td align="left"></td>
 </tr>
 <tr class="even">
 <td align="right">8</td>
-<td align="left">R</td>
-<td align="left">Fundamentals of R Programming I</td>
+<td align="left">31 October</td>
+<td align="left">Python</td>
+<td align="left">Fundamentals of Python Programming I</td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="right">9</td>
-<td align="left">R</td>
-<td align="left">Fundamentals of R Programming II</td>
+<td align="left">7 November</td>
+<td align="left">Python</td>
+<td align="left">Fundamentals of Python Programming II</td>
+<td align="left">Assignment 3</td>
 </tr>
 <tr class="even">
 <td align="right">10</td>
-<td align="left">R</td>
-<td align="left">Data Wrangling in R</td>
+<td align="left">14 November</td>
+<td align="left">Python</td>
+<td align="left">Data Wrangling in Python</td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="right">11</td>
-<td align="left">R, Python</td>
+<td align="left">21 November</td>
+<td align="left">Python, R</td>
 <td align="left">Complexity and Performance</td>
+<td align="left">Assignment 4</td>
 </tr>
 <tr class="even">
 <td align="right">12</td>
-<td align="left">R, Python</td>
-<td align="left">Web scraping</td>
+<td align="left">28 November</td>
+<td align="left">Python, R</td>
+<td align="left">Web Scraping</td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="prerequisites" class="section level2 unnumbered">
-<h2>Prerequisites</h2>
+<div id="prerequisites" class="section level2 unnumbered hasAnchor">
+<h2>Prerequisites<a href="index.html#prerequisites" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This is an introductory class and no prior experience with programming is required.</p>
 </div>
-<div id="hardware-and-software" class="section level2 unnumbered">
-<h2>Hardware and Software</h2>
+<div id="hardware-and-software" class="section level2 unnumbered hasAnchor">
+<h2>Hardware and Software<a href="index.html#hardware-and-software" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>Laptop with Windows/Mac/Linux OS (no Chrome books)</li>
-<li>Software:
+<li>Required software:
 <ul>
+<li><a href="https://jupyter.org/"><strong>Jupyter</strong></a> - web-based interactive computational environment</li>
 <li><a href="https://www.python.org/"><strong>Python</strong></a> (version 3+) - versatile programming language</li>
 <li><a href="https://cran.r-project.org/"><strong>R</strong></a> (version 4+) - statistical programming language</li>
-<li><a href="https://jupyter.org/"><strong>Jupyter</strong></a> - web-based interactive computational environment</li>
-<li><a href="https://www.rstudio.com/"><strong>RStudio</strong></a> - integrated development environment</li>
+</ul></li>
+<li>Additional software:
+<ul>
 <li><a href="https://git-scm.com/"><strong>Git</strong></a> - version control system</li>
 <li><a href="https://github.com/"><strong>GitHub</strong></a> - git-based online platform for code hosting</li>
+<li><a href="https://www.rstudio.com/"><strong>RStudio</strong></a> - integrated development environment for R</li>
+<li><a href="https://www.spyder-ide.org/"><strong>Spyder</strong></a> - integrated development environment for Python</li>
+<li><a href="https://code.visualstudio.com/"><strong>Visual Studio Code</strong></a> - feature-rich text editor</li>
 </ul></li>
 </ul>
+<p>See syllabus for further details.</p>
 </div>
-<div id="materials" class="section level2 unnumbered">
-<h2>Materials</h2>
-<p>The following texts provide a good introduction to Python and R programming with a focus on data analysis applications:</p>
+<div id="materials" class="section level2 unnumbered hasAnchor">
+<h2>Materials<a href="index.html#materials" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Books:</p>
 <ul>
 <li><p>Guttag, John. 2021 <em>Introduction to Computation and Programming Using Python: With Application to Computational Modeling and Understanding Data</em>. 3rd ed. Cambridge, MA: The MIT Press</p></li>
 <li><p>Matloff, Norman. 2011. <em>The Art of R Programming: A Tour of Statistical Software Design</em>. San Francisco, CA: No Starch Press.</p></li>
 <li><p>McKinney, Wes. 2017. <em>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython</em>. 2nd ed. Sebastopol, CA: O’Reilly Media</p></li>
-<li><p>Wickham, Hadley. 2019. <a href="http://adv-r.had.co.nz/"><em>Advanced R</em></a>. 2nd ed. Boca Raton, FL: Chapman and Hall/CRC.</p></li>
+<li><p>Peng, Roger D. 2016. <a href="https://leanpub.com/rprogramming"><em>R Programming for Data Science</em></a>. Leanpub</p></li>
 <li><p>Wickham, Hadley, and Garrett Grolemund. 2017. <a href="http://r4ds.had.co.nz/"><em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em></a>. Sebastopol, CA: O’Reilly Media.</p></li>
+<li><p>Wickham, Hadley. 2019. <a href="http://adv-r.had.co.nz/"><em>Advanced R</em></a>. 2nd ed. Boca Raton, FL: Chapman and Hall/CRC.</p></li>
 </ul>
 <p>Additional online resources:</p>
 <ul>
 <li><p><a href="https://git-scm.com/book/en/v2">Git Book</a></p></li>
+<li><p><a href="https://docs.python-guide.org/">The Hitchhiker’s Guide to Python</a></p></li>
 <li><p><a href="https://pymbook.readthedocs.io/en/latest/">Python For You and Me</a></p></li>
 <li><p><a href="https://en.wikibooks.org/wiki/Python_Programming">Python Wikibook</a></p></li>
 <li><p><a href="https://docs.python.org/3/">Python 3 Documentation</a> (intermediate and advanced)</p></li>
@@ -305,23 +295,27 @@
 <li><p><a href="https://www.burns-stat.com/pages/Tutor/R_inferno.pdf">R Inferno</a></p></li>
 </ul>
 </div>
-<div id="assessment" class="section level2">
-<h2>Assessment</h2>
+<div id="assessment" class="section level2 hasAnchor">
+<h2>Assessment<a href="index.html#assessment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li>5 problem sets (50%)
+<li>Participation (10 %)
 <ul>
-<li>Bi-weekly programming assigments</li>
-<li>Due at 11:00 on Monday of weeks 3,5,7,10 and 12 on Blackboard</li>
+<li>Tutorial attendance</li>
+</ul></li>
+<li>4 assignments (40%)
+<ul>
+<li>Bi-weekly programming exercises</li>
+<li>Due by 23:59 on Friday of weeks 3, 5, 9 and 11 on Blackboard</li>
 </ul></li>
 <li>Research project (50%)
 <ul>
 <li>Final Python/R project demonstrating familiarity with programming concepts and ability to communicate results</li>
-<li>Due at 11:00 on Monday, 20 December 2021</li>
+<li>Due by 23:59 on Friday, 16 December 2022</li>
 </ul></li>
 </ul>
 </div>
-<div id="assessment-criteria" class="section level2 unnumbered">
-<h2>Assessment criteria</h2>
+<div id="assessment-criteria" class="section level2 unnumbered hasAnchor">
+<h2>Assessment criteria<a href="index.html#assessment-criteria" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ol style="list-style-type: decimal">
 <li>✔️ Code exists</li>
 <li>⌚ Code runs and does what it has to do</li>
@@ -329,9 +323,10 @@
 <li>⚙️ Code is modular (no redundacies, use of abstractions)</li>
 <li>🏎️ Code is optimized (no needless loops, runs fast)</li>
 </ol>
+<p>Marks at Trinity: <a href="https://www.tcd.ie/academicregistry/exams/student-guide/">https://www.tcd.ie/academicregistry/exams/student-guide/</a></p>
 </div>
-<div id="plagiarism" class="section level2 unnumbered">
-<h2>Plagiarism</h2>
+<div id="plagiarism" class="section level2 unnumbered hasAnchor">
+<h2>Plagiarism<a href="index.html#plagiarism" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>Plagiarising computer code is as serious as plagiarising text (see <a href="https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America%2C_Inc.">Google LLC v. Oracle America, Inc.</a>)</li>
 <li>All submitted programming assignments and final project should be done individually</li>
@@ -349,11 +344,10 @@
         </div>
       </div>
 
-<a href="what-is-computation.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="introduction-to-computation.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -394,7 +388,7 @@ gitbook.start({
 },
 "download": null,
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
