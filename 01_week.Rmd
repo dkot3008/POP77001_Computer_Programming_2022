@@ -1,25 +1,28 @@
-# 1 What is Computation?
+# 1 Introduction to Computation
 
 <div id="buttons">
 <a class="btn btn-primary btn-lg" role="button" href="lectures/01b_week.html">Lecture Slides (html)</a>
-<a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/lectures/01b_week.ipynb">Lecture Slides (ipynb)</a>
-<a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/labs/01_week.ipynb">Lab Exercise (ipynb)</a>
-<a class="btn btn-secondary btn-lg" role="button" href="labs/01_week.html">Lab Exercise (html)</a>
-<a class="btn btn-warning btn-lg" role="button" href="recordings/01_week_lecture.mp3">Recording</a>
+<a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/lectures/01b_week.ipynb">Lecture Slides (ipynb)</a>
+<a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/tutorials/01_week.ipynb">Tutorial Exercise (ipynb)</a>
+<a class="btn btn-secondary btn-lg" role="button" href="tutorials/01_week.html">Lab Exercise (html)</a>
 </div>
 ---
 
 In the first week we will cover the core software development concepts such as computers, programming languages and algorithms.
 
-## Readings
+## Required Readings
 
-- Guttag. Chapters 1-2.1
-- McKinney. Chapters 1-2
+- Guttag Ch 1: Getting Started
 - Wing, Jeannette M. 2006. "Computational Thinking." Communications of the ACM, 49 (3): 33–35. doi: [10.1145/1118178.1118215](https://doi.org/10.1145/1118178.1118215)
 
-## Lab
+## Additional Readings
+
+- Wickham & Grolemund Ch [1: Introduction](https://r4ds.hadley.nz/intro.html)
+- McKinney Ch 1: Preliminaries
+
+## Tutorial
 
 - Installation of Python and R
-- Introduction to Jupyter Lab and alternative IDEs
+- Introduction to Jupyter Notebooks and alternative IDEs
 - Work in command-line interfaces (CLIs)
 - GitHub Workflow
