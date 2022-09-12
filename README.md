@@ -16,7 +16,7 @@ This module provides foundational knowledge of computer programming concepts and
 - 11 two-hour lectures
     - Monday 14:00 in PX 201 [7-9 Leinster Street South](https://www.tcd.ie/Maps/map.php?b=255)
 - 11 two-hour tutorials
-    - Wednesday 14:00 in PX 201 [7-9 Leinster Street South](https://www.tcd.ie/Maps/map.php?b=255)
+    - Thursday 09:00 in PX 201 [7-9 Leinster Street South](https://www.tcd.ie/Maps/map.php?b=255)
 - No lecture/tutorial in Week 7
 
 | Week|Date         |Language  |Topic                                 |Assignment Due |
