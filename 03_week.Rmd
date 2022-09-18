@@ -1,0 +1,18 @@
+# 3 Control Flow in R
+
+This week we will focus on the key ways of controlling the flow of programs in R. We will
+look at branching and loops, common for all programming languages and the details of their
+design in R.
+
+## Required Readings
+
+- Peng Ch 14: Control Structures;
+
+## Additional Readings
+
+- Matloff Ch 7: R Programming Structures;
+
+## Tutorial
+
+- Conditional statements and iterations
+- Working with functions in R
