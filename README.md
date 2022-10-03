@@ -19,20 +19,20 @@ This module provides foundational knowledge of computer programming concepts and
     - Thursday 09:00 in PX 201 [7-9 Leinster Street South](https://www.tcd.ie/Maps/map.php?b=255)
 - No lecture/tutorial in Week 7
 
-| Week|Date         |Language  |Topic                                 |Assignment Due |
-|----:|:------------|:---------|:-------------------------------------|:--------------|
-|    1|12 September |-         |Introduction to Computation           |               |
-|    2|19 September |R         |R Basics                              |               |
-|    3|27 September |R         |Control Flow in R                     |Assignment 1   |
-|    4|3 October    |R         |Functions in R                        |               |
-|    5|10 October   |R         |Debugging and Testing in R            |Assignment 2   |
-|    6|17 October   |R         |Data Wrangling in R                   |               |
-|    7|24 October   |-         |-                                     |               |
-|    8|31 October   |Python    |Fundamentals of Python Programming I  |               |
-|    9|7 November   |Python    |Fundamentals of Python Programming II |Assignment 3   |
-|   10|14 November  |Python    |Data Wrangling in Python              |               |
-|   11|21 November  |Python, R |Complexity and Performance            |Assignment 4   |
-|   12|28 November  |Python, R |Web Scraping                          |               |
+| Week|Lecture (Monday) |Language  |Topic                                 |Due (Friday) |
+|----:|:----------------|:---------|:-------------------------------------|:------------|
+|    1|12 September     |-         |Introduction to Computation           |             |
+|    2|19 September     |R         |R Basics                              |             |
+|    3|26 September     |R         |Control Flow in R                     |Assignment 1 |
+|    4|3 October        |R         |Functions in R                        |             |
+|    5|10 October       |R         |Debugging and Testing in R            |Assignment 2 |
+|    6|17 October       |R         |Data Wrangling in R                   |             |
+|    7|24 October       |-         |-                                     |             |
+|    8|31 October       |Python    |Fundamentals of Python Programming I  |             |
+|    9|7 November       |Python    |Fundamentals of Python Programming II |Assignment 3 |
+|   10|14 November      |Python    |Data Wrangling in Python              |             |
+|   11|21 November      |Python, R |Complexity and Performance            |Assignment 4 |
+|   12|28 November      |Python, R |Web Scraping                          |             |
 
 ## Prerequisites
 
@@ -124,3 +124,16 @@ Marks at Trinity: [https://www.tcd.ie/academicregistry/exams/student-guide/](htt
 - You can use online resources but give credit in the comments.
 
 Check the Trinity's [guide on the levels and consequences of plagiarism](https://libguides.tcd.ie/plagiarism/levels-and-consequences)
+
+---
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg

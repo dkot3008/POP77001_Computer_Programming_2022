@@ -2,13 +2,18 @@
 
 <div id="buttons">
 <a class="btn btn-primary btn-lg" role="button" href="lectures/01b_week.html">Lecture Slides (html)</a>
+<a class="btn btn-info btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/lectures/01b_week.pdf">Lecture Slides (pdf)</a>
 <a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/lectures/01b_week.ipynb">Lecture Slides (ipynb)</a>
+<br>
+<br>
 <a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/tutorials/01_week.ipynb">Tutorial Exercise (ipynb)</a>
+<a class="btn btn-info btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022/blob/main/tutorials/01_week.pdf">Tutorial Exercise (pdf)</a>
 <a class="btn btn-secondary btn-lg" role="button" href="tutorials/01_week.html">Tutorial Exercise (html)</a>
 </div>
 ---
 
-In the first week we will cover the core software development concepts such as computers, programming languages and algorithms.
+We start by discussing the core software development concepts such as computers, program-
+ming languages and algorithms.
 
 ## Required Readings
 

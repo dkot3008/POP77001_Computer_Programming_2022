@@ -1,0 +1,17 @@
+# 4 Functions in R
+
+This week we will discuss functions, the main building block of a program implemented in
+any language.
+
+## Required Readings
+
+- Peng Chs 15: Functions, 16: Scoping Rules;
+- Wickham Ch [6: Functions](http://adv-r.had.co.nz/Functions.html);
+
+## Additional Readings
+
+- Wickham Chs [10: Functional Programming](http://adv-r.had.co.nz/Functional-programming.html), [11: Functionals](http://adv-r.had.co.nz/Functionals.html), [12: Function Operators](http://adv-r.had.co.nz/Function-operators.html);
+
+## Tutorial
+
+- Implementing functions in R
