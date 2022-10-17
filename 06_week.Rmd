@@ -32,6 +32,6 @@ Working with data is at the centre of programming in R. In addition to core func
 
 ## Assignment 2
 
-- R functions and 
+- R functions and data wrangling
 - Due at 12:00 on Monday, 24th October (submission on Blackboard)
 - Rename the file from `02_assignment.ipynb` to `02_assignment_lastname_firstname_studentnumber.ipynb` before submission
