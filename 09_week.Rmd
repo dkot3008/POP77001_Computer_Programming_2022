@@ -32,6 +32,6 @@ As in other programming languages, functions are crucial for building modular pr
 
 ## Assignment 3
 
-- Python basics and control flow
-- Due at 23:59 on Friday, 11th November (submission on Blackboard)
+- Python fundamentals and control flow
+- Due at 12:00 on Monday, 14th November (submission on Blackboard)
 - Rename the file from `03_assignment.ipynb` to `03_assignment_lastname_firstname_studentnumber.ipynb` before submission
